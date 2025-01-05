@@ -13,5 +13,6 @@
     - any
     - unknown
     - never
+    - void
     - enum
     - tupple
