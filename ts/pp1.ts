@@ -66,7 +66,7 @@ type BikeData ={
 type VehicleData = BikeData | CarData;
 function getvehicleDetails(vehicle: VehicleData){
     if(vehicle.type === 'car'){
-        console.log(`CAR: ${vehicle.make} ${vehicle.model} Year:${vehicle.year}`);
+        console.log(`CAR: ${vehicle.make} ${vehicle.model} Year: ${vehicle.year}`);
     }else if(vehicle.type === 'bike'){
         console.log(`BIKE: ${vehicle.brand} CC: ${vehicle.cc}`);
     }
