@@ -26,7 +26,6 @@ class Car1{
     public make: string;
     private model: string;
     protected year: number;
-
     constructor(make: string, model: string, year: number){
         this.make = make;
         this.model = model;
@@ -106,6 +105,6 @@ class Circle{
 }
 
 const circle = new Circle(10);
-console.log(circle.radius); // 10
+// console.log(circle.radius); // 10
 circle.radius = 15;
-console.log(circle.radius);  // 15
+// console.log(circle.radius);  // 15
